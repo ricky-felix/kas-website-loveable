@@ -1,20 +1,20 @@
 const quotes = [
   {
-    q: "Three monsoons later, the basement is bone dry. STRATA's specification was the most thorough we received in Medan.",
+    q: "Tiga musim hujan berlalu, basement tetap kering total. Spesifikasi KAS adalah yang paling teliti yang kami terima di Medan.",
     a: "Ir. Andika Wijaya",
-    r: "Project Architect, Polonia Heights",
+    r: "Arsitek Proyek, Polonia Heights",
     c: "outline-cobalt",
     m: "text-cobalt",
   },
   {
-    q: "They treated our reservoir like an architectural project, not a patch job. The detailing at the construction joints is exemplary.",
+    q: "Mereka menangani reservoir kami selayaknya proyek arsitektur, bukan sekadar tambalan. Detail sambungan konstruksinya patut dicontoh.",
     a: "Hendra Tanuwijaya",
-    r: "Facilities Director, PT Sumatra Pangan",
+    r: "Direktur Fasilitas, PT Sumatra Pangan",
     c: "outline-rust",
     m: "text-rust",
   },
   {
-    q: "Flood test passed first time. We've now retained STRATA across four residences in Cemara Asri and Setiabudi.",
+    q: "Flood test lulus pada percobaan pertama. Kami kini mempercayakan KAS untuk empat hunian di Cemara Asri dan Setiabudi.",
     a: "Mira Halim",
     r: "Principal, Halim Studio Arsitektur",
     c: "outline-ochre",
@@ -28,14 +28,14 @@ export const Testimonials = () => {
       <div className="mx-auto max-w-[1400px] px-6 md:px-10">
         <div className="mb-16 flex flex-wrap items-end justify-between gap-6">
           <div>
-            <p className="rule-label mb-4">§ 05 / Voices</p>
+            <p className="rule-label mb-4">§ 05 / Suara klien</p>
             <h2 className="display-serif text-5xl md:text-6xl leading-[0.95]">
-              Architects, owners,
+              Arsitek, pemilik,
               <br />
-              <span className="italic">facilities teams.</span>
+              <span className="italic">tim fasilitas.</span>
             </h2>
           </div>
-          <p className="rule-label max-w-xs">Selected correspondence — verbatim, on file.</p>
+          <p className="rule-label max-w-xs">Korespondensi terpilih — verbatim, terarsip.</p>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8">

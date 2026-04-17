@@ -5,8 +5,8 @@ import pool from "@/assets/project-pool.jpg";
 const projects = [
   {
     img: rooftop,
-    title: "Cemara Asri Residence",
-    type: "Roof Membrane",
+    title: "Hunian Cemara Asri",
+    type: "Membran Atap",
     year: "2024",
     area: "640 m²",
     outline: "outline-cobalt",
@@ -14,17 +14,17 @@ const projects = [
   },
   {
     img: basement,
-    title: "Sun Plaza Substructure",
-    type: "Basement Injection",
+    title: "Substruktur Sun Plaza",
+    type: "Injeksi Basement",
     year: "2023",
-    area: "2,100 m²",
+    area: "2.100 m²",
     outline: "outline-rust",
     label: "text-rust",
   },
   {
     img: pool,
-    title: "Villa Polonia Pool",
-    type: "Pool & Wet Area",
+    title: "Kolam Villa Polonia",
+    type: "Kolam & Area Basah",
     year: "2024",
     area: "180 m²",
     outline: "outline-ochre",
@@ -38,16 +38,16 @@ export const Projects = () => {
       <div className="mx-auto max-w-[1400px] px-6 md:px-10">
         <div className="flex flex-wrap items-end justify-between gap-6 mb-14">
           <div>
-            <p className="rule-label mb-4">§ 03 / Selected works</p>
+            <p className="rule-label mb-4">§ 03 / Karya pilihan</p>
             <h2 className="display-serif text-5xl md:text-6xl leading-[0.95]">
-              A folio of dry buildings.
+              Folio bangunan kering.
             </h2>
           </div>
           <a
             href="#contact"
             className="inline-flex items-center gap-2 text-sm font-medium border-b border-foreground pb-1 hover:gap-3 transition-all"
           >
-            Full archive on request <span aria-hidden>→</span>
+            Arsip lengkap atas permintaan <span aria-hidden>→</span>
           </a>
         </div>
 
@@ -57,7 +57,7 @@ export const Projects = () => {
               <div className={`relative aspect-[4/5] overflow-hidden rounded-sm ${p.outline}`}>
                 <img
                   src={p.img}
-                  alt={`${p.title} — ${p.type} project in Medan`}
+                  alt={`${p.title} — proyek ${p.type} di Medan`}
                   loading="lazy"
                   width={1024}
                   height={1280}

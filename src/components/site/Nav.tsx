@@ -1,11 +1,11 @@
 import { useEffect, useState } from "react";
 
 const links = [
-  { href: "#services", label: "Services" },
-  { href: "#projects", label: "Projects" },
-  { href: "#process", label: "Process" },
-  { href: "#testimonials", label: "Voices" },
-  { href: "#contact", label: "Contact" },
+  { href: "#services", label: "Layanan" },
+  { href: "#projects", label: "Proyek" },
+  { href: "#process", label: "Proses" },
+  { href: "#testimonials", label: "Testimoni" },
+  { href: "#contact", label: "Kontak" },
 ];
 
 export const Nav = () => {
@@ -29,8 +29,13 @@ export const Nav = () => {
             <span className="absolute inset-1 outline-rust rounded-[2px]" />
             <span className="block w-1.5 h-1.5 bg-foreground rounded-full" />
           </span>
-          <span className="display-serif text-xl tracking-tight">
-            STRATA<span className="text-cobalt">.</span>
+          <span className="flex flex-col leading-none">
+            <span className="display-serif text-xl tracking-tight">
+              KAS<span className="text-cobalt">.</span>
+            </span>
+            <span className="hidden sm:block text-[10px] tracking-[0.18em] uppercase text-muted-foreground mt-1">
+              PT Karya Agung Sejati
+            </span>
           </span>
         </a>
 
@@ -51,7 +56,7 @@ export const Nav = () => {
           href="#contact"
           className="hidden md:inline-flex items-center gap-2 px-5 py-2.5 outline-ink rounded-sm text-sm font-medium hover:bg-foreground hover:text-background transition-all duration-300"
         >
-          Request Survey
+          Minta Survei
           <span aria-hidden>→</span>
         </a>
 
@@ -59,7 +64,7 @@ export const Nav = () => {
           href="#contact"
           className="md:hidden inline-flex items-center px-3 py-2 outline-ink rounded-sm text-xs font-medium"
         >
-          Survey →
+          Survei →
         </a>
       </nav>
     </header>
