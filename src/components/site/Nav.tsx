@@ -1,15 +1,22 @@
 import { useEffect, useState } from "react";
+import { useLocation } from "react-router-dom";
 
-const links = [
-  { href: "#services", label: "Layanan" },
-  { href: "#projects", label: "Proyek" },
-  { href: "#process", label: "Proses" },
-  { href: "#testimonials", label: "Testimoni" },
-  { href: "#contact", label: "Kontak" },
+const ANCHORS = [
+  { hash: "top", label: "Home" },
+  { hash: "services", label: "Layanan" },
+  { hash: "projects", label: "Proyek" },
+  { hash: "process", label: "Proses" },
+  { hash: "why-us", label: "Keunggulan" },
+  { hash: "contact", label: "Kontak" },
 ];
 
 export const Nav = () => {
   const [scrolled, setScrolled] = useState(false);
+  const location = useLocation();
+  const isHome = location.pathname === "/";
+
+  const link = (hash: string) => (isHome ? `#${hash}` : `/#${hash}`);
+
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 8);
     onScroll();
@@ -24,7 +31,7 @@ export const Nav = () => {
       }`}
     >
       <nav className="mx-auto flex max-w-[1400px] items-center justify-between px-6 md:px-10 py-5">
-        <a href="#top" className="flex items-center gap-3 group">
+        <a href={isHome ? "#top" : "/"} className="flex items-center gap-3 group">
           <span className="relative grid place-items-center w-9 h-9 outline-cobalt rounded-sm">
             <span className="absolute inset-1 outline-rust rounded-[2px]" />
             <span className="block w-1.5 h-1.5 bg-foreground rounded-full" />
@@ -40,10 +47,10 @@ export const Nav = () => {
         </a>
 
         <ul className="hidden md:flex items-center gap-8">
-          {links.map((l) => (
-            <li key={l.href}>
+          {ANCHORS.map((l) => (
+            <li key={l.hash}>
               <a
-                href={l.href}
+                href={link(l.hash)}
                 className="text-sm text-muted-foreground hover:text-foreground transition-colors duration-300"
               >
                 {l.label}
@@ -53,7 +60,7 @@ export const Nav = () => {
         </ul>
 
         <a
-          href="#contact"
+          href={link("contact")}
           className="hidden md:inline-flex items-center gap-2 px-5 py-2.5 outline-ink rounded-sm text-sm font-medium hover:bg-foreground hover:text-background transition-all duration-300"
         >
           Minta Survei
@@ -61,7 +68,7 @@ export const Nav = () => {
         </a>
 
         <a
-          href="#contact"
+          href={link("contact")}
           className="md:hidden inline-flex items-center px-3 py-2 outline-ink rounded-sm text-xs font-medium"
         >
           Survei →

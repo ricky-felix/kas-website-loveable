@@ -1,46 +1,46 @@
 const services = [
-  {
-    no: "01",
-    title: "Sistem Atap & Teras",
-    desc: "Membran PU cair dan SBS torch-on untuk atap datar, teras, dan podium. Dirancang untuk curah hujan Medan 2.300 mm per tahun.",
-    outline: "outline-cobalt",
-    text: "text-cobalt",
-  },
-  {
-    no: "02",
-    title: "Basement & Substruktur",
-    desc: "Aditif kristalin, lembar bentonit, dan injeksi sisi tekanan untuk dinding bawah tanah, lift pit, dan tangki air.",
-    outline: "outline-rust",
-    text: "text-rust",
-  },
-  {
-    no: "03",
-    title: "Kolam & Area Basah",
-    desc: "Sistem sementius dan poliuretan untuk kolam renang, water feature, kamar mandi, dan zona basah dapur.",
-    outline: "outline-ochre",
-    text: "text-ochre",
-  },
-  {
-    no: "04",
-    title: "Fasad & Sambungan Ekspansi",
-    desc: "Pelapis elastomerik, sealant, dan detail expansion joint agar curtain wall dan fasad beton tetap kedap cuaca.",
-    outline: "outline-moss",
-    text: "text-moss",
-  },
-  {
-    no: "05",
-    title: "Diagnosa & Perbaikan Bocor",
-    desc: "Survei termografi dan tracer untuk menemukan jalur rembesan, dilanjutkan injeksi terarah atau pemasangan ulang membran.",
-    outline: "outline-cobalt",
-    text: "text-cobalt",
-  },
-  {
-    no: "06",
-    title: "Industri & Bangunan Cagar",
-    desc: "Reservoir, lantai pabrik, dan pasangan bata bersejarah — spesifikasi khusus dengan garansi tertulis 10 tahun.",
-    outline: "outline-rust",
-    text: "text-rust",
-  },
+	{
+		no: "01",
+		title: "Water Proofing",
+		desc: "Sistem membran PU cair dan SBS torch-on untuk atap datar, teras, dan podium. Dirancang tahan terhadap curah hujan tinggi dan perubahan suhu ekstrem.",
+		outline: "outline-cobalt",
+		text: "text-cobalt",
+	},
+	{
+		no: "02",
+		title: "Floor Hardener",
+		desc: "Aplikasi agregat metalik atau kuarsa pada beton segar untuk lantai industri, gudang, dan area parkir. Meningkatkan kekerasan permukaan dan ketahanan terhadap abrasi beban berat.",
+		outline: "outline-rust",
+		text: "text-rust",
+	},
+	{
+		no: "03",
+		title: "Epoxy Flooring",
+		desc: "Sistem pelapisan epoxy dan poliuretan untuk lantai pabrik, laboratorium, rumah sakit, dan fasilitas produksi. Tahan kimia, mudah dibersihkan, dan tahan lama.",
+		outline: "outline-ochre",
+		text: "text-ochre",
+	},
+	{
+		no: "04",
+		title: "Strengthening",
+		desc: "Perkuatan struktural menggunakan carbon fiber wrap, FRP, dan steel plate bonding untuk balok, kolom, dan pelat yang membutuhkan peningkatan kapasitas beban.",
+		outline: "outline-moss",
+		text: "text-moss",
+	},
+	{
+		no: "05",
+		title: "Concrete Repair",
+		desc: "Perbaikan beton rusak akibat korosi, retak, atau spalling menggunakan mortar polimer dan patch repair. Mengembalikan integritas struktural dan mencegah kerusakan lanjutan.",
+		outline: "outline-cobalt",
+		text: "text-cobalt",
+	},
+	{
+		no: "06",
+		title: "Injection",
+		desc: "Injeksi retakan beton dan pasangan bata dengan material epoxy atau poliuretan untuk menyegel kebocoran aktif dan memulihkan kekuatan struktural secara tepat sasaran.",
+		outline: "outline-rust",
+		text: "text-rust",
+	},
 ];
 
 export const Services = () => {
