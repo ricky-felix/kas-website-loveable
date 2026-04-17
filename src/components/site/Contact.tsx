@@ -132,7 +132,7 @@ export const Contact = () => {
 							</label>
 							<label className="bg-background p-5 block md:col-span-2">
 								<span className="rule-label block mb-2">
-									Brief <span className="text-cobalt">*</span>
+									Brief / Pesan <span className="text-cobalt">*</span>
 								</span>
 								<textarea
 									name="brief"
