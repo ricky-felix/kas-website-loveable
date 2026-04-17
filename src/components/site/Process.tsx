@@ -1,8 +1,8 @@
 const steps = [
-  { n: "I", t: "Survey", d: "On-site inspection across Medan and greater Sumut. Substrate testing, moisture mapping, photographic record.", c: "border-cobalt", tx: "text-cobalt" },
-  { n: "II", t: "Specify", d: "Written specification matched to exposure, traffic, and architecture. Material data sheets, shop drawings, schedule.", c: "border-rust", tx: "text-rust" },
-  { n: "III", t: "Install", d: "Certified applicators. Daily QC log, primer adhesion pulls, dry-film thickness checks, flood test prior to handover.", c: "border-ochre", tx: "text-ochre" },
-  { n: "IV", t: "Guarantee", d: "10-year written warranty on systems. Annual inspections, photographic dossier, response within 24 hours for any callback.", c: "border-moss", tx: "text-moss" },
+  { n: "I", t: "Survei", d: "Inspeksi langsung di Medan dan sekitar Sumut. Pengujian substrat, pemetaan kelembapan, dokumentasi foto.", c: "border-cobalt", tx: "text-cobalt" },
+  { n: "II", t: "Spesifikasi", d: "Spesifikasi tertulis sesuai paparan cuaca, lalu lintas, dan arsitektur. Lembar data material, gambar kerja, jadwal.", c: "border-rust", tx: "text-rust" },
+  { n: "III", t: "Pemasangan", d: "Aplikator bersertifikat. Catatan QC harian, uji adhesi primer, pemeriksaan ketebalan film kering, flood test sebelum serah terima.", c: "border-ochre", tx: "text-ochre" },
+  { n: "IV", t: "Garansi", d: "Garansi tertulis 10 tahun atas sistem. Inspeksi tahunan, dosir foto, respons callback dalam 24 jam.", c: "border-moss", tx: "text-moss" },
 ];
 
 export const Process = () => {
@@ -10,11 +10,11 @@ export const Process = () => {
     <section id="process" className="py-24 md:py-32">
       <div className="mx-auto max-w-[1400px] px-6 md:px-10">
         <div className="mb-16 max-w-3xl">
-          <p className="rule-label mb-4">§ 04 / Method</p>
+          <p className="rule-label mb-4">§ 04 / Metode</p>
           <h2 className="display-serif text-5xl md:text-6xl leading-[0.95]">
-            Four movements,
+            Empat tahap,
             <br />
-            <span className="italic text-muted-foreground">one continuous seal.</span>
+            <span className="italic text-muted-foreground">satu segel berkelanjutan.</span>
           </h2>
         </div>
 

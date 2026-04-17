@@ -1,43 +1,43 @@
 const services = [
   {
     no: "01",
-    title: "Roof & Terrace Systems",
-    desc: "Liquid PU and SBS torch-on membranes for flat roofs, terraces, and podium decks. Designed for Medan's 2,300 mm of annual rainfall.",
+    title: "Sistem Atap & Teras",
+    desc: "Membran PU cair dan SBS torch-on untuk atap datar, teras, dan podium. Dirancang untuk curah hujan Medan 2.300 mm per tahun.",
     outline: "outline-cobalt",
     text: "text-cobalt",
   },
   {
     no: "02",
-    title: "Basement & Substructure",
-    desc: "Crystalline admixtures, bentonite sheets, and pressure-side injection for underground walls, lift pits, and water tanks.",
+    title: "Basement & Substruktur",
+    desc: "Aditif kristalin, lembar bentonit, dan injeksi sisi tekanan untuk dinding bawah tanah, lift pit, dan tangki air.",
     outline: "outline-rust",
     text: "text-rust",
   },
   {
     no: "03",
-    title: "Pools & Wet Areas",
-    desc: "Cementitious and polyurethane systems for swimming pools, water features, bathrooms, and kitchen wet zones.",
+    title: "Kolam & Area Basah",
+    desc: "Sistem sementius dan poliuretan untuk kolam renang, water feature, kamar mandi, dan zona basah dapur.",
     outline: "outline-ochre",
     text: "text-ochre",
   },
   {
     no: "04",
-    title: "Facade & Expansion Joints",
-    desc: "Elastomeric coatings, sealants, and expansion joint detailing to keep curtain walls and concrete facades weather-tight.",
+    title: "Fasad & Sambungan Ekspansi",
+    desc: "Pelapis elastomerik, sealant, dan detail expansion joint agar curtain wall dan fasad beton tetap kedap cuaca.",
     outline: "outline-moss",
     text: "text-moss",
   },
   {
     no: "05",
-    title: "Leak Diagnosis & Repair",
-    desc: "Thermographic and tracer surveys to locate ingress paths, followed by targeted injection or membrane reinstatement.",
+    title: "Diagnosa & Perbaikan Bocor",
+    desc: "Survei termografi dan tracer untuk menemukan jalur rembesan, dilanjutkan injeksi terarah atau pemasangan ulang membran.",
     outline: "outline-cobalt",
     text: "text-cobalt",
   },
   {
     no: "06",
-    title: "Industrial & Heritage",
-    desc: "Reservoirs, factory floors, and historic masonry — bespoke specifications backed by 10-year written guarantees.",
+    title: "Industri & Bangunan Cagar",
+    desc: "Reservoir, lantai pabrik, dan pasangan bata bersejarah — spesifikasi khusus dengan garansi tertulis 10 tahun.",
     outline: "outline-rust",
     text: "text-rust",
   },
@@ -49,17 +49,17 @@ export const Services = () => {
       <div className="mx-auto max-w-[1400px] px-6 md:px-10">
         <div className="grid grid-cols-12 gap-8 mb-16">
           <div className="col-span-12 md:col-span-4">
-            <p className="rule-label mb-4">§ 02 / Practice</p>
+            <p className="rule-label mb-4">§ 02 / Praktik</p>
             <h2 className="display-serif text-5xl md:text-6xl leading-[0.95]">
-              Six disciplines.
+              Enam disiplin.
               <br />
-              <span className="italic text-muted-foreground">One seal.</span>
+              <span className="italic text-muted-foreground">Satu segel.</span>
             </h2>
           </div>
           <div className="col-span-12 md:col-span-7 md:col-start-6 self-end">
             <p className="text-lg text-muted-foreground max-w-[55ch]">
-              Every project begins with a survey, a written specification, and a material
-              choice matched to the substrate, the exposure, and the client's intent.
+              Setiap proyek diawali dengan survei, spesifikasi tertulis, dan pemilihan material
+              yang sesuai dengan substrat, paparan cuaca, serta tujuan klien.
             </p>
           </div>
         </div>

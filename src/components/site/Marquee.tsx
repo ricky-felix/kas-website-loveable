@@ -1,12 +1,12 @@
 const items = [
-  "PU Liquid Membrane",
-  "SBS Bituminous Sheet",
-  "Crystalline Concrete",
-  "Polyurea Spray",
-  "EPDM Roofing",
-  "Injection Grouting",
-  "Cementitious Coating",
-  "Drain Reform",
+  "Membran PU Cair",
+  "Lembar Bitumen SBS",
+  "Beton Kristalin",
+  "Semprot Polyurea",
+  "Atap EPDM",
+  "Injeksi Grouting",
+  "Pelapis Sementius",
+  "Pembenahan Drainase",
 ];
 
 export const Marquee = () => {

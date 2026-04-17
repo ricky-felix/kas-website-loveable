@@ -9,25 +9,30 @@ export const Footer = () => {
                 <span className="absolute inset-1 outline-rust rounded-[2px]" />
                 <span className="block w-1.5 h-1.5 bg-foreground rounded-full" />
               </span>
-              <span className="display-serif text-xl">STRATA<span className="text-cobalt">.</span></span>
+              <span className="flex flex-col leading-none">
+                <span className="display-serif text-xl">KAS<span className="text-cobalt">.</span></span>
+                <span className="text-[10px] tracking-[0.18em] uppercase text-muted-foreground mt-1">
+                  PT Karya Agung Sejati
+                </span>
+              </span>
             </div>
             <p className="display-serif text-3xl md:text-4xl leading-tight max-w-md">
-              Architectural waterproofing, drawn for the tropics.
+              Waterproofing arsitektural, dirancang untuk iklim tropis.
             </p>
           </div>
 
           <div className="col-span-6 md:col-span-2 md:col-start-8">
             <p className="rule-label mb-4">Studio</p>
             <ul className="space-y-2 text-sm">
-              <li><a href="#services" className="hover:text-cobalt transition-colors">Services</a></li>
-              <li><a href="#projects" className="hover:text-cobalt transition-colors">Projects</a></li>
-              <li><a href="#process" className="hover:text-cobalt transition-colors">Process</a></li>
-              <li><a href="#contact" className="hover:text-cobalt transition-colors">Contact</a></li>
+              <li><a href="#services" className="hover:text-cobalt transition-colors">Layanan</a></li>
+              <li><a href="#projects" className="hover:text-cobalt transition-colors">Proyek</a></li>
+              <li><a href="#process" className="hover:text-cobalt transition-colors">Proses</a></li>
+              <li><a href="#contact" className="hover:text-cobalt transition-colors">Kontak</a></li>
             </ul>
           </div>
 
           <div className="col-span-6 md:col-span-3">
-            <p className="rule-label mb-4">Find us</p>
+            <p className="rule-label mb-4">Temui kami</p>
             <address className="not-italic text-sm leading-relaxed text-muted-foreground">
               Jl. Gatot Subroto No. 184<br/>
               Medan 20119<br/>
@@ -37,7 +42,7 @@ export const Footer = () => {
         </div>
 
         <div className="mt-16 pt-6 border-t border-border flex flex-wrap items-center justify-between gap-4 text-xs text-muted-foreground">
-          <span>© {new Date().getFullYear()} STRATA Waterproofing — All rights reserved.</span>
+          <span>© {new Date().getFullYear()} PT Karya Agung Sejati — Hak cipta dilindungi.</span>
           <div className="flex items-center gap-2">
             <span className="block w-1.5 h-1.5 rounded-full bg-[hsl(var(--accent-cobalt))]" />
             <span className="block w-1.5 h-1.5 rounded-full bg-[hsl(var(--accent-rust))]" />
