@@ -14,7 +14,7 @@ export const Footer = () => {
 									KAS<span className="text-cobalt">.</span>
 								</span>
 								<span className="text-[10px] tracking-[0.18em] uppercase text-muted-foreground mt-1">
-									PT Karya Agung Sejati
+									CV Karya Agung Sejati
 								</span>
 							</span>
 						</div>
@@ -93,7 +93,7 @@ export const Footer = () => {
 				</div>
 
 				<div className="mt-16 pt-6 border-t border-border flex flex-wrap items-center justify-between gap-4 text-xs text-muted-foreground">
-					<span>© {new Date().getFullYear()} PT Karya Agung Sejati</span>
+					<span>© {new Date().getFullYear()} CV Karya Agung Sejati</span>
 					<div className="flex items-center gap-2">
 						<span className="block w-1.5 h-1.5 rounded-full bg-[hsl(var(--accent-cobalt))]" />
 						<span className="block w-1.5 h-1.5 rounded-full bg-[hsl(var(--accent-rust))]" />

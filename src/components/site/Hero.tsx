@@ -43,7 +43,7 @@ export const Hero = () => {
 					<div className="col-span-12 lg:col-span-5 lg:pl-8">
 						<p className="text-base md:text-lg text-muted-foreground max-w-[40ch] leading-relaxed">
 							<span className="text-foreground font-medium">
-								PT Karya Agung Sejati
+								CV Karya Agung Sejati
 							</span>{" "}
 							adalah perusahaan waterproofing yang berbasis di Medan, bekerja di
 							antara perusahaan Indonesia lainnya. Membran, pelapis, injeksi —

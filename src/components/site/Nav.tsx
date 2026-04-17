@@ -41,7 +41,7 @@ export const Nav = () => {
               KAS<span className="text-cobalt">.</span>
             </span>
             <span className="hidden sm:block text-[10px] tracking-[0.18em] uppercase text-muted-foreground mt-1">
-              PT Karya Agung Sejati
+              CV Karya Agung Sejati
             </span>
           </span>
         </a>
