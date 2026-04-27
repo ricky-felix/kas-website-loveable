@@ -11,9 +11,10 @@ export const Contact = () => {
 		const form = e.target as HTMLFormElement;
 		const d = new FormData(form);
 
-		const subject = encodeURIComponent(`Permintaan Survei — ${d.get("name")}`);
-		const body = encodeURIComponent(
+		const text = encodeURIComponent(
 			[
+				`*Permintaan Survei — ${d.get("name")}*`,
+				"",
 				`Nama       : ${d.get("name")}`,
 				`Perusahaan : ${d.get("company") || "-"}`,
 				`Email      : ${d.get("email")}`,
@@ -22,16 +23,18 @@ export const Contact = () => {
 				"",
 				"Brief:",
 				d.get("brief"),
+				"",
+				"_Ini dikirim melalui website KAS - www.karyaagungsejati.com_",
 			].join("\n"),
 		);
 
-		window.location.href = `mailto:karyaagungsejati2000@gmail.com?subject=${subject}&body=${body}`;
+		window.open(`https://wa.me/62811617551?text=${text}`, "_blank");
 
 		setSubmitting(false);
 		form.reset();
-		toast.success("Aplikasi email Anda akan terbuka.", {
+		toast.success("WhatsApp akan terbuka.", {
 			description:
-				"Pastikan email terkirim dari aplikasi email Anda. Kami akan membalas dalam satu hari kerja.",
+				"Pastikan pesan terkirim dari aplikasi WhatsApp Anda. Kami akan membalas dalam satu hari kerja.",
 		});
 	};
 
@@ -147,8 +150,8 @@ export const Contact = () => {
 						<div className="mt-6 flex flex-wrap items-center justify-between gap-4">
 							<p className="text-xs text-muted-foreground max-w-sm">
 								Dengan mengirim formulir ini, Anda mengizinkan KAS menghubungi
-								Anda terkait permintaan ini. Formulir ini akan membuka aplikasi
-								email Anda — pastikan email terkirim sebelum menutupnya.
+								Anda terkait permintaan ini. Formulir ini akan membuka WhatsApp
+								— pastikan pesan terkirim sebelum menutupnya.
 							</p>
 							<button
 								type="submit"

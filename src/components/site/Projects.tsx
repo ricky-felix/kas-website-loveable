@@ -1,89 +1,73 @@
 import rooftop from "@/assets/project-rooftop.jpg";
 import basement from "@/assets/project-basement.jpg";
 import pool from "@/assets/project-pool.jpg";
+import Picture1 from "@/assets/Picture-1.jpeg";
+import Picture2 from "@/assets/Picture-2.jpeg";
 
 const projects = [
 	{
-		img: rooftop,
-		title: "Hunian Cemara Asri",
-		type: "Membran Atap",
-		year: "2024",
-		area: "640 m²",
+		img: Picture1,
+		title: "Concrete Repair",
+		type: "Medan, Indonesia",
 		outline: "outline-cobalt",
 		label: "text-cobalt",
 	},
 	{
-		img: basement,
-		title: "Substruktur Sun Plaza",
-		type: "Injeksi Basement",
-		year: "2023",
-		area: "2.100 m²",
+		img: Picture2,
+		title: "Epoxy Floor",
+		type: "Medan, Indonesia",
 		outline: "outline-rust",
 		label: "text-rust",
 	},
-	{
-		img: pool,
-		title: "Kolam Villa Polonia",
-		type: "Kolam & Area Basah",
-		year: "2024",
-		area: "180 m²",
-		outline: "outline-ochre",
-		label: "text-ochre",
-	},
-	{
-		img: rooftop,
-		title: "Hunian Cemara Asri",
-		type: "Membran Atap",
-		year: "2024",
-		area: "640 m²",
-		outline: "outline-cobalt",
-		label: "text-cobalt",
-	},
-	{
-		img: basement,
-		title: "Substruktur Sun Plaza",
-		type: "Injeksi Basement",
-		year: "2023",
-		area: "2.100 m²",
-		outline: "outline-rust",
-		label: "text-rust",
-	},
-	{
-		img: pool,
-		title: "Kolam Villa Polonia",
-		type: "Kolam & Area Basah",
-		year: "2024",
-		area: "180 m²",
-		outline: "outline-ochre",
-		label: "text-ochre",
-	},
-	{
-		img: rooftop,
-		title: "Hunian Cemara Asri",
-		type: "Membran Atap",
-		year: "2024",
-		area: "640 m²",
-		outline: "outline-cobalt",
-		label: "text-cobalt",
-	},
-	{
-		img: basement,
-		title: "Substruktur Sun Plaza",
-		type: "Injeksi Basement",
-		year: "2023",
-		area: "2.100 m²",
-		outline: "outline-rust",
-		label: "text-rust",
-	},
-	{
-		img: pool,
-		title: "Kolam Villa Polonia",
-		type: "Kolam & Area Basah",
-		year: "2024",
-		area: "180 m²",
-		outline: "outline-ochre",
-		label: "text-ochre",
-	},
+	// {
+	// 	img: pool,
+	// 	title: "Kolam Villa Polonia",
+	// 	type: "Kolam & Area Basah",
+	// 	outline: "outline-ochre",
+	// 	label: "text-ochre",
+	// },
+	// {
+	// 	img: rooftop,
+	// 	title: "Hunian Cemara Asri",
+	// 	type: "Membran Atap",
+	// 	outline: "outline-cobalt",
+	// 	label: "text-cobalt",
+	// },
+	// {
+	// 	img: basement,
+	// 	title: "Substruktur Sun Plaza",
+	// 	type: "Injeksi Basement",
+	// 	outline: "outline-rust",
+	// 	label: "text-rust",
+	// },
+	// {
+	// 	img: pool,
+	// 	title: "Kolam Villa Polonia",
+	// 	type: "Kolam & Area Basah",
+	// 	outline: "outline-ochre",
+	// 	label: "text-ochre",
+	// },
+	// {
+	// 	img: rooftop,
+	// 	title: "Hunian Cemara Asri",
+	// 	type: "Membran Atap",
+	// 	outline: "outline-cobalt",
+	// 	label: "text-cobalt",
+	// },
+	// {
+	// 	img: basement,
+	// 	title: "Substruktur Sun Plaza",
+	// 	type: "Injeksi Basement",
+	// 	outline: "outline-rust",
+	// 	label: "text-rust",
+	// },
+	// {
+	// 	img: pool,
+	// 	title: "Kolam Villa Polonia",
+	// 	type: "Kolam & Area Basah",
+	// 	outline: "outline-ochre",
+	// 	label: "text-ochre",
+	// },
 ];
 
 export const Projects = () => {
@@ -94,7 +78,7 @@ export const Projects = () => {
 					<div>
 						<p className="rule-label mb-4">§ 03 / Karya pilihan</p>
 						<h2 className="display-serif text-5xl md:text-6xl leading-[0.95]">
-							Folio.
+							Proyek yang dipilih.
 						</h2>
 					</div>
 					<a
@@ -109,7 +93,7 @@ export const Projects = () => {
 
 				<div className="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8">
 					{projects.map((p, i) => (
-						<article key={p.title} className="group">
+						<article key={i} className="group">
 							<div
 								className={`relative aspect-[4/5] overflow-hidden rounded-sm ${p.outline}`}
 							>
@@ -127,11 +111,9 @@ export const Projects = () => {
 							</div>
 							<div className="mt-5 flex items-baseline justify-between gap-4">
 								<h3 className="display-serif text-2xl">{p.title}</h3>
-								<span className="rule-label whitespace-nowrap">{p.year}</span>
 							</div>
 							<div className="mt-2 flex items-center justify-between text-sm text-muted-foreground">
 								<span>{p.type}</span>
-								<span>{p.area}</span>
 							</div>
 						</article>
 					))}
