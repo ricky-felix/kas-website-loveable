@@ -72,7 +72,7 @@ export const Hero = () => {
 
 						<dl className="mt-12 grid grid-cols-3 gap-4">
 							{[
-								{ k: "16", l: "tahun", c: "outline-cobalt" },
+								{ k: "26", l: "tahun", c: "outline-cobalt" },
 								{ k: "500+", l: "proyek", c: "outline-rust" },
 								{ k: "20+", l: "anggota", c: "outline-ochre" },
 							].map((s) => (

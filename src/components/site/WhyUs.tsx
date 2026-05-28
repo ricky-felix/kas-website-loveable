@@ -6,7 +6,7 @@ const reasons = [
 	{
 		no: "01",
 		title: "Berpengalaman Sejak 2000",
-		desc: "Lebih dari 16 tahun mengerjakan proyek waterproofing di Indonesia. Rekam jejak yang solid — bukan sekadar angka, melainkan kepercayaan yang dibangun satu proyek per waktu.",
+		desc: "Lebih dari 26 tahun mengerjakan proyek waterproofing di Indonesia. Rekam jejak yang solid — bukan sekadar angka, melainkan kepercayaan yang dibangun satu proyek per waktu.",
 		outline: "outline-cobalt",
 		text: "text-cobalt",
 		border: "border-cobalt",
