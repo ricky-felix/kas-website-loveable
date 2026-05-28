@@ -2,7 +2,7 @@ const steps = [
   { n: "I", t: "Survei", d: "Inspeksi langsung di Medan dan sekitar Sumut. Pengujian substrat, pemetaan kelembapan, dokumentasi foto.", c: "border-cobalt", tx: "text-cobalt" },
   { n: "II", t: "Spesifikasi", d: "Spesifikasi tertulis sesuai paparan cuaca, lalu lintas, dan arsitektur. Lembar data material, gambar kerja, jadwal.", c: "border-rust", tx: "text-rust" },
   { n: "III", t: "Pemasangan", d: "Aplikator bersertifikat. Catatan QC harian, uji adhesi primer, pemeriksaan ketebalan film kering, flood test sebelum serah terima.", c: "border-ochre", tx: "text-ochre" },
-  { n: "IV", t: "Garansi", d: "Garansi tertulis 10 tahun atas sistem. Inspeksi tahunan, dosir foto, respons callback dalam 24 jam.", c: "border-moss", tx: "text-moss" },
+  { n: "IV", t: "Dokumentasi", d: "Rekam jejak proyek diserahkan kepada klien: foto berjangka, lembar data sistem, dan catatan QC sebagai referensi permanen.", c: "border-moss", tx: "text-moss" },
 ];
 
 export const Process = () => {

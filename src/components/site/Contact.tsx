@@ -66,7 +66,7 @@ export const Contact = () => {
 									Medan 20223, Sumatera Utara
 								</dd>
 							</div>
-							<div className="grid grid-cols-2 gap-6">
+							<div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
 								<div>
 									<dt className="rule-label mb-1">Telepon</dt>
 									<dd>+62 81 161 7551</dd>

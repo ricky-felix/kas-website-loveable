@@ -23,7 +23,7 @@ export const Footer = () => {
 						</p>
 					</div>
 
-					<div className="col-span-6 md:col-span-2 md:col-start-8">
+					<div className="col-span-12 md:col-span-2 md:col-start-8">
 						<p className="rule-label mb-4">Navigasi</p>
 						<ul className="space-y-2 text-sm">
 							<li>
@@ -74,7 +74,7 @@ export const Footer = () => {
 						</ul>
 					</div>
 
-					<div className="col-span-6 md:col-span-3">
+					<div className="col-span-12 md:col-span-3">
 						<p className="rule-label mb-4">Temui kami</p>
 						<address className="not-italic text-sm leading-relaxed text-muted-foreground">
 							Jl. William Iskandar Muda (Pancing)
