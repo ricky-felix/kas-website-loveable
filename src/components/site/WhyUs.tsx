@@ -5,7 +5,7 @@ const reasons = [
 	{
 		no: "01",
 		title: "Berpengalaman Sejak 2000",
-		desc: "Lebih dari 16 tahun mengerjakan proyek waterproofing di Sumatera Utara. Rekam jejak yang solid — bukan sekadar angka, melainkan kepercayaan yang dibangun satu proyek per waktu.",
+		desc: "Lebih dari 16 tahun mengerjakan proyek waterproofing di Indonesia. Rekam jejak yang solid — bukan sekadar angka, melainkan kepercayaan yang dibangun satu proyek per waktu.",
 		outline: "outline-cobalt",
 		text: "text-cobalt",
 		border: "border-cobalt",
@@ -44,8 +44,8 @@ const reasons = [
 	},
 	{
 		no: "06",
-		title: "Jangkauan Seluruh Sumatera Utara",
-		desc: "Berbasis di Medan, kami melayani seluruh wilayah Sumatera Utara — dari kawasan Medan, industri Belawan, hingga proyek residensial di Berastagi",
+		title: "Bermarkas di Sumatera Utara, Berpengalaman Melampaui Batas",
+		desc: "Berakar di Medan, kami telah mengerjakan proyek di berbagai wilayah Sumatera — dari kawasan industri Belawan hingga residensial Berastagi — dan terus berkembang ke luar pulau.",
 		outline: "outline-rust",
 		text: "text-rust",
 		border: "border-rust",
@@ -105,19 +105,6 @@ export const WhyUs = () => {
 							/>
 						</div>
 
-						<dl className="grid grid-cols-3 gap-4">
-							{[
-								{ k: "16+", l: "tahun", c: "outline-cobalt" },
-								{ k: "200+", l: "proyek", c: "outline-rust" },
-								{ k: "20+", l: "anggota tim", c: "outline-ochre" },
-							].map((s) => (
-								<div key={s.l} className={`p-3 rounded-sm ${s.c}`}>
-									<dt className="display-serif text-2xl md:text-3xl">{s.k}</dt>
-									<dd className="rule-label mt-1">{s.l}</dd>
-								</div>
-							))}
-						</dl>
-
 						<div
 							className={`absolute left-0 right-0 bottom-0 h-px scale-x-0 group-hover:scale-x-100 origin-left transition-transform duration-700 bg-current ${featured.text}`}
 						/>
@@ -163,8 +150,8 @@ export const WhyUs = () => {
 							className="group relative bg-background p-8 md:p-10 lg:col-span-12 transition-colors duration-500 hover:bg-card"
 						>
 							<div className="grid grid-cols-1 md:grid-cols-3 gap-6 items-start">
-								<div className="flex items-baseline gap-4">
-									<span className={`display-serif text-2xl ${rest[4].text}`}>
+								<div>
+									<span className={`display-serif text-2xl ${rest[4].text} block mb-4`}>
 										{rest[4].no}
 									</span>
 									<h3 className="display-serif text-2xl md:text-3xl leading-tight">

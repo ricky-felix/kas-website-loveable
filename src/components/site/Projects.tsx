@@ -21,13 +21,13 @@ const projects = [
 		outline: "outline-rust",
 		label: "text-rust",
 	},
-	{
-		img: Picture3,
-		title: "Epoxy Floor",
-		type: "Brebes, Jawa Tengah",
-		outline: "outline-ochre",
-		label: "text-ochre",
-	},
+	// {
+	// 	img: Picture3,
+	// 	title: "Epoxy Floor",
+	// 	type: "Brebes, Jawa Tengah",
+	// 	outline: "outline-ochre",
+	// 	label: "text-ochre",
+	// },
 	// {
 	// 	img: rooftop,
 	// 	title: "Hunian Cemara Asri",
