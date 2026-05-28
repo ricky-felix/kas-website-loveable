@@ -1,5 +1,6 @@
 import whyUsImg from "@/assets/hero-concrete-water.jpg";
 import whyUsImg2 from "@/assets/project-rooftop.jpg";
+// import homebase from "@/components/site/Homebase";'
 
 const reasons = [
 	{
@@ -135,11 +136,11 @@ export const WhyUs = () => {
 					))}
 
 					{/* Image fills blank col 8–12 on rows 3–4 */}
-					<div className="hidden lg:flex lg:col-start-8 lg:col-span-5 lg:row-start-3 lg:row-span-2 overflow-hidden">
+					<div className="flex overflow-hidden lg:col-start-8 lg:col-span-5 lg:row-start-3 lg:row-span-2">
 						<img
 							src={whyUsImg2}
 							alt="Pengerjaan waterproofing atap oleh tim KAS"
-							className="w-full object-cover grayscale-[0.1]"
+							className="w-full object-cover grayscale-[0.1] aspect-[4/3] lg:aspect-auto"
 						/>
 					</div>
 
@@ -151,7 +152,9 @@ export const WhyUs = () => {
 						>
 							<div className="grid grid-cols-1 md:grid-cols-3 gap-6 items-start">
 								<div>
-									<span className={`display-serif text-2xl ${rest[4].text} block mb-4`}>
+									<span
+										className={`display-serif text-2xl ${rest[4].text} block mb-4`}
+									>
 										{rest[4].no}
 									</span>
 									<h3 className="display-serif text-2xl md:text-3xl leading-tight">
