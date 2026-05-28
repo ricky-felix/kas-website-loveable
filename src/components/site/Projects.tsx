@@ -1,31 +1,33 @@
 import rooftop from "@/assets/project-rooftop.jpg";
 import basement from "@/assets/project-basement.jpg";
 import pool from "@/assets/project-pool.jpg";
+
 import Picture1 from "@/assets/Picture-1.jpeg";
 import Picture2 from "@/assets/Picture-2.jpeg";
+import Picture3 from "@/assets/Picture-3.jpeg";
 
 const projects = [
 	{
 		img: Picture1,
 		title: "Concrete Repair",
-		type: "Medan, Indonesia",
+		type: "Medan, Sumatera Utara",
 		outline: "outline-cobalt",
 		label: "text-cobalt",
 	},
 	{
 		img: Picture2,
 		title: "Epoxy Floor",
-		type: "Medan, Indonesia",
+		type: "Medan, Sumatera Utara",
 		outline: "outline-rust",
 		label: "text-rust",
 	},
-	// {
-	// 	img: pool,
-	// 	title: "Kolam Villa Polonia",
-	// 	type: "Kolam & Area Basah",
-	// 	outline: "outline-ochre",
-	// 	label: "text-ochre",
-	// },
+	{
+		img: Picture3,
+		title: "Epoxy Floor",
+		type: "Brebes, Jawa Tengah",
+		outline: "outline-ochre",
+		label: "text-ochre",
+	},
 	// {
 	// 	img: rooftop,
 	// 	title: "Hunian Cemara Asri",
