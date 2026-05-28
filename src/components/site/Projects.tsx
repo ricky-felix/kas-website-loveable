@@ -119,6 +119,18 @@ export const Projects = () => {
 							</div>
 						</article>
 					))}
+
+					{/* Placeholder — more photos coming */}
+					<article>
+						<div className="relative aspect-[4/5] rounded-sm border border-dashed border-border flex flex-col items-center justify-center gap-4">
+							<svg width="32" height="32" viewBox="0 0 32 32" fill="none" className="text-muted-foreground/30">
+								<rect x="3" y="3" width="26" height="26" rx="2" stroke="currentColor" strokeWidth="1.5" strokeDasharray="4 3"/>
+								<circle cx="12" cy="13" r="2.5" fill="currentColor"/>
+								<path d="M3 21l6-6 5 5 4-4 9 8" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
+							</svg>
+							<p className="rule-label text-muted-foreground/50 text-center px-6">Foto & proyek terbaru<br/>segera hadir</p>
+						</div>
+					</article>
 				</div>
 			</div>
 		</section>
