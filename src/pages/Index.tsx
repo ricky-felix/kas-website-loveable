@@ -7,18 +7,30 @@ import { Process } from "@/components/site/Process";
 import { WhyUs } from "@/components/site/WhyUs";
 import { Contact } from "@/components/site/Contact";
 import { Footer } from "@/components/site/Footer";
+import { Reveal } from "@/components/site/Reveal";
 
 const Index = () => {
 	return (
 		<main className="min-h-screen bg-background text-foreground">
 			<Nav />
+			{/* Hero keeps its own on-load entrance (above the fold). */}
 			<Hero />
 			<Marquee />
-			<Services />
-			<Projects />
-			<Process />
-			<WhyUs />
-			<Contact />
+			<Reveal>
+				<Services />
+			</Reveal>
+			<Reveal>
+				<Projects />
+			</Reveal>
+			<Reveal>
+				<Process />
+			</Reveal>
+			<Reveal>
+				<WhyUs />
+			</Reveal>
+			<Reveal>
+				<Contact />
+			</Reveal>
 			<Footer />
 		</main>
 	);
